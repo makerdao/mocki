@@ -23,9 +23,10 @@ const graphql = async (endpoint, req) => {
     path: '/',
     mocks: endpoint.graphql.mocks ? generateMocks(endpoint.graphql.mocks) : true
   });
-  server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
-    console.log(`🚀 Server ready at ${url}`);
-  });
+  // server.listen({ port: process.env.PORT || 3000 }).then(({ url }) => {
+  //   console.log(`🚀 Server ready at ${url}`);
+  //   console.log('port:', process.env.PORT);
+  // });
   const app = express();
   app.use(bodyParser.json());
   server.applyMiddleware({ app, path: '/' });

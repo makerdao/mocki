@@ -20,6 +20,7 @@
     "url": "https://github.com/adalyte/mocki/issues"
   },
   "dependencies": {
+    "@babel/core": "^7.13.15",
     "@babel/node": "^7.13.13",
     "apollo-server-express": "^2.16.1",
     "chalk": "^3.0.0",
