@@ -31,6 +31,7 @@
     "fs": "0.0.1-security",
     "graphql": "^15.3.0",
     "lodash": "^4.17.15",
+    "npx": "^10.2.2",
     "path-to-regexp": "^6.1.0",
     "yaml": "^1.7.2"
   },
