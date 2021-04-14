@@ -21,6 +21,11 @@ const mockMiddleware = options => async (req, res, next) => {
 
   if (endpoint.graphql) {
     const graphqlResponse = await graphql(endpoint, req);
+    res.set('Access-Control-Allow-Origin', '*');
+    res.set(
+      'Access-Control-Allow-Headers',
+      'Origin, X-Requested-With, Content-Type, Accept'
+    );
     return res.send(graphqlResponse);
   }
 
