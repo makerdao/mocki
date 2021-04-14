@@ -1,5 +1,5 @@
 name: mocki
-port: ${PORT}
+port: 4000
 endpoints:
   - path: /
     method: get
