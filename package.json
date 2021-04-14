@@ -33,9 +33,7 @@
     "lodash": "^4.17.15",
     "npx": "^10.2.2",
     "path-to-regexp": "^6.1.0",
-    "yaml": "^1.7.2"
-  },
-  "devDependencies": {
+    "yaml": "^1.7.2",
     "bluebird": "^3.7.2",
     "chai": "^4.2.0",
     "coveralls": "^3.0.9",
